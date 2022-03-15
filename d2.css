@@ -1,0 +1,84 @@
+.head{
+    display: flex;position: absolute;text-decoration: ;
+    text-align: center;column-gap: 20px;font-size: 50px;
+    margin-left: 300px;
+}
+.h{
+font-weight: bold;
+background-color: orangered;z-index: 1;
+}
+.i{
+font-weight: bold;background-color: white;
+}
+.d{
+font-weight: bold;background-color: green;
+}
+body{
+    margin: 0px;
+}
+.sky{
+   width: 100%;z-index: -1;
+   height: 450px;position: absolute;
+}
+.city{
+    height: 200px;width: 100%;position:absolute;
+    margin-top: 215px;
+}
+.road{
+    background-image: url("./road.jpg")  repeat-x;width: 1000px;;
+    height: 250px;margin-top:415px;
+    position: absolute;
+    overflow-x:hidden;
+    animation-name: rd;background-repeat: repeat-x;
+    animation-duration: 3s;animation-delay: 0s;
+    animation-timing-function:linear;animation-direction:normal;
+    animation-iteration-count: infinite;
+}
+@keyframes rd {
+   
+100%{
+    transform: translate(-100%);
+}
+}
+.car{
+    width: 300px;margin-top: 400px;margin-left: 500px;
+    height: 150px;position: absolute;
+}
+.wheel{
+    width: 55px;
+    height: 55px;
+    position: absolute;
+    margin-top: 481px;
+    margin-left: 526px;
+    animation-name: rot;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-delay: 0s;
+    
+}
+@keyframes rot {
+    100%{
+        transform: rotate(360deg);
+        }
+} 
+.whee2{
+    width: 55px;
+    height: 55px;
+    position: absolute;
+    margin-top: 481px;
+    margin-left: 709px;
+    animation-name: rot;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-delay: 0s;
+    
+}
+@keyframes rot {
+    100%{
+        transform: rotate(360deg);
+        }
+} 

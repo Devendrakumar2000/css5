@@ -1,0 +1,80 @@
+.cont{
+    margin-left: 650px;
+}
+
+.s{
+    width: 120px;margin: 10px;
+    height: 120px;
+    background-color: green;
+}
+.a{
+    width: 120px;
+    height: 120px;
+    transition-property: all;
+    background-color: green;
+    transition-duration: 2s;
+}
+.a:hover{
+    width: 400px;
+}
+.b{
+    width: 120px;
+    height: 120px;
+    transition-property: width 2s,height 4s;
+    background-color: green;
+    transition-duration: 6s;
+}
+.b:hover{
+    width: 300px;
+    height: 300px;
+}
+.c{
+    width: 120px;
+    height: 120px;
+    transition-property: all;
+    background-color: green;
+    transition-duration: 2s;
+}
+.c:hover{
+    width: 400px;
+}
+.d{
+    width: 120px;
+    height: 120px;
+    transition-property: all;
+    background-color: green;
+    transition-duration: 2s;
+}
+.d:hover{
+    width: 400px;
+}
+.e{
+    width: 120px;
+    height: 120px;
+    transition-property: all;
+    background-color: green;
+    transition-duration: 2s;
+}
+.e:hover{
+    width: 400px;
+}
+.f{
+    width: 120px;
+    height: 120px;
+    transition-property: all;
+    background-color: green;
+    transition-duration: 2s;
+}
+.f:hover{
+    width: 400px;
+}
+.g{
+    width: 120px;
+    height: 120px;
+    transition-property: all;
+    background-color: green;
+    transition-duration: 2s;
+}
+.g:hover{
+    width: 400px;
+}
