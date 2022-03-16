@@ -37,7 +37,7 @@ body{
 @keyframes rd {
    
 100%{
-    transform: translate(-500%);
+    transform: translate(-5000px);
 }
 }
 .car{
