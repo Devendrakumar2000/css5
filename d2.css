@@ -25,19 +25,24 @@ body{
     margin-top: 215px;
 }
 .road{
-    background-image: url("./road.jpg")  repeat-x;width: 1000px;;
-    height: 250px;margin-top:415px;
+    background-image: url(./road.jpg) repeat-x;
+    width: 1960px;
+    height: 437px;
+    margin: 415px 0px 0px 0px;
     position: absolute;
-    overflow-x:hidden;
-    animation-name: rd;background-repeat: repeat-x;
-    animation-duration: 3s;animation-delay: 0s;
-    animation-timing-function:linear;animation-direction:normal;
+    overflow-x: hidden;
+    animation-name: rd;
+    background-repeat: repeat-x;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-timing-function: linear;
+    animation-direction: normal;
     animation-iteration-count: infinite;
 }
 @keyframes rd {
    
 100%{
-    transform: translate(-5000px);
+    transform: translate(-450px);
 }
 }
 .car{
